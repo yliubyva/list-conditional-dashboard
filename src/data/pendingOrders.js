@@ -1,0 +1,42 @@
+export const pendingOrders = [
+    {
+        id: 1,
+        image: "/public/john.webp",
+        date: "2024-09-19 12:50:34",
+        customerName: "John Doe",
+        itemQuantity: "2 items",
+        totalCost: 196.36,
+    },
+    {
+        id: 2,
+        image: "/public/jane.webp",
+        date: "2024-09-02 15:26:34",
+        customerName: "Jane Smith",
+        itemQuantity: "10 items",
+        totalCost: 109.8,
+    },
+    {
+        id: 3,
+        image: "/public/alice.webp",
+        date: "2024-08-29 20:13:34",
+        customerName: "Alice Brown",
+        itemQuantity: "1 item",
+        totalCost: 27.3,
+    },
+    {
+        id: 4,
+        image: "/public/bob.webp",
+        date: "2024-08-29 10:59:34",
+        customerName: "Bob Johnson",
+        itemQuantity: "1 item",
+        totalCost: 32.2,
+    },
+    {
+        id: 5,
+        image: "/public/charlie.webp",
+        date: "2024-08-28 07:56:34",
+        customerName: "Charlie Davis",
+        itemQuantity: "5 items",
+        totalCost: 51.03,
+    },
+];

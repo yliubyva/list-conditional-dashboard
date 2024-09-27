@@ -1,0 +1,9 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.name {
+    font-weight: 500;
+}
