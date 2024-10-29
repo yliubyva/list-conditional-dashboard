@@ -1,0 +1,35 @@
+.navigation {
+    margin-top: 30px;
+    margin-left: 20px;
+
+    position: absolute;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    color: #676767;
+    font-weight: 500;
+}
+
+.link:hover {
+    color: #1F1E1E;
+}
+
+.link:hover > .icon {
+    fill: #1F1E1E;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    fill: #676767;
+}

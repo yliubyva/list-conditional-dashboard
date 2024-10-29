@@ -1,0 +1,39 @@
+.item {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.date,
+.name,
+.itemQuantity,
+.totalCost {
+    color: #000;
+    text-transform: none;
+}
+
+.name::after {
+    content: ",";
+}
+
+.name {
+    margin-right: 5px;
+}
+
+.name, 
+.itemQuantity {
+    color: #767676;
+    font-size: 14px;
+}
+
+.totalCost {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.orderSummary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
